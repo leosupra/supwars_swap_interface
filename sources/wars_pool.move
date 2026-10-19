@@ -1,6 +1,4 @@
 module wars_dex::wars_pool {
-    use aptos_framework::object::Object;
-    use aptos_framework::fungible_asset::Metadata;
 
     #[view]
     public fun quote_out(
