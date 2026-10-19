@@ -1,0 +1,12 @@
+[package]
+name = "wars_dex"
+version = "0.0.1"
+authors = ["compatible"]
+
+[addresses]
+wars_dex = "0xe30a26a598182ea2e7d8b984d261ecca63c595e1c0c8a9b5f8b51b7387ed4c48"
+
+[dependencies.SupraFramework]
+git = 'https://github.com/Entropy-Foundation/aptos-core.git'
+subdir = 'aptos-move/framework/supra-framework'
+rev = 'dev'
