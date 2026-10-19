@@ -1,0 +1,24 @@
+module wars::wars_pool {
+    use aptos_framework::object::Object;
+    use aptos_framework::fungible_asset::Metadata;
+
+    #[view]
+    public fun quote_out(
+        pool: address,
+        asset_in: address,
+        amount_in: u64
+    ): u64 {
+        abort 0
+    }
+
+    public entry fun swap_exact_in(
+        user: &signer,
+        asset_in: address,
+        asset_out: address,
+        amount_in: u64,
+        min_out: u64,
+        deadline: u64
+    ) {
+        abort 0
+    }
+}
